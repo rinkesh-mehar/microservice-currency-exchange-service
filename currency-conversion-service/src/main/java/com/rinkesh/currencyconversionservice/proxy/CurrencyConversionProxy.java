@@ -13,7 +13,8 @@ import java.util.Optional;
  * @date 27-Dec-21
  */
 
-@FeignClient(name = "currency-exchange", url = "localhost:8000")
+// @FeignClient(name = "currency-exchange", url = "localhost:8000")
+@FeignClient(name = "currency-exchange")
 @Component
 public interface CurrencyConversionProxy
 {
